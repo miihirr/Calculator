@@ -16,11 +16,16 @@ body{
     color: black;
     background-color: white;
     border: 1px solid rgb(6, 184, 0);
+    border-radius: 5px;
 }
 .btn:hover{
     background-color: rgb(99, 255, 91);
     cursor: pointer;
     border: none;
+}
+.btn:active{
+    background-color: rgb(78, 203, 71);
+ 
 }
 .operator{
     border: 1px solid rgb(253, 156, 9);
@@ -29,6 +34,10 @@ body{
     background-color: rgb(252, 172, 52);
     cursor: pointer;
     border: none;
+}
+.operator:active{
+    background-color: rgb(176, 120, 37);
+ 
 }
 .extra{
     border: 1px solid rgb(119, 22, 254);
@@ -39,6 +48,9 @@ body{
     border: none;
     color: aliceblue;
 }
+.extra:active{
+    background-color: rgb(96, 49, 163);
+}
 .clear{
     border: 1px solid red;
 }
@@ -47,6 +59,9 @@ body{
     cursor: pointer;
     border: none;
     color: aliceblue;
+}
+.clear:active{
+    background-color:rgb(183, 0, 0);
 }
 .screen{
     border: 1px solid red;
