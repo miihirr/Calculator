@@ -65,11 +65,19 @@ body{
 }
 .screen{
     border: 1px solid red;
+    border-radius: 5px;
     display: flex;
+    flex-direction: column;
+    justify-content:space-between;
     align-items: end;
-    justify-content: end;
     padding: 1rem;
+}
+.main-display{
     font-size: 3rem;
+}
+.secondary-display{
+    font-size: 2rem;
+    color: gray;
 }
 .first-row{
     display: grid;
